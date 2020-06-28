@@ -1,6 +1,5 @@
 const mysql = require("mysql2");
 const inquirer = require("inquirer");
-require("dotenv").config();
 
 let inventory = [];
 
@@ -9,7 +8,7 @@ console.log("\nWelcome to Bamazon\n");
 let connection = mysql.createConnection({
   port: 3306,
   user: "root",
-  password: process.env.DB_PASS,
+  password: "password",
   database: "bamazon",
 });
 
