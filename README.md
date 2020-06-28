@@ -16,13 +16,13 @@ It was built using these dependencies
 
 ![](./demo/mysql.gif)
 
-5. Change MySQL credentials to your own
+5. Change MySQL credentials to match your own
 
 ![](./demo/pass.png)
 
 ## Using Bamazon
 
-Once you have everything installed you can run the application through the terminal. Make sure you an instance of your database running.
+Once you have everything installed you can run the application through the terminal. Make sure you have an instance of your database running.
 
 `node bamazon.js`
 
@@ -35,11 +35,12 @@ Once you have everything installed you can run the application through the termi
    - Asks user to input the quantity
 
    - If purchase is successful
-     - user will be notified of total purchase price
+   - user will be notified of total purchase price
+   - database will update stock quantity for that item
    - If item is not found
-     - user will be notified the item doesn't exist
+   - user will be notified item doesn't exist
    - If inventory is too low
-     - user will be notified their purchase is unsuccessful
+     - user will be notified their purchase was unsuccessful
 
 2. **exit**
 
