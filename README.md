@@ -22,7 +22,8 @@ It was built using these dependencies
 
 ## Using Bamazon
 
-Once you have everything installed you can run the application through the terminal. Make sure you have an instance of your database running.
+Once you have everything installed you can run the application through the terminal.
+Make sure you have an instance of your database running.
 
 `node bamazon.js`
 
@@ -31,15 +32,21 @@ Once you have everything installed you can run the application through the termi
 1. **inventory**
 
    - Lists every item in the store
-   - Asks user to input the id of the item
-   - Asks user to input the quantity
+
+     - Asks user to input the id of the item
+     - Asks user to input the quantity
 
    - If purchase is successful
-   - user will be notified of total purchase price
-   - database will update stock quantity for that item
+
+     - user will be notified of total purchase price
+     - database will update stock quantity for that item
+
    - If item is not found
-   - user will be notified item doesn't exist
+
+     - user will be notified item doesn't exist
+
    - If inventory is too low
+
      - user will be notified their purchase was unsuccessful
 
 2. **exit**
